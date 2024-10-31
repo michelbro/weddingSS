@@ -47,6 +47,26 @@ h3{
     opacity: 0;
     transition: 1s all ease;
   }
+
+  .ifr{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+    position: relative;
+    width: 100%; 
+    padding-top: 56.25%;
+    overflow: hidden;
+  }
+
+  .ifr iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
   
   .reveal.active{
     transform: translateY(0);
@@ -362,7 +382,7 @@ a:hover{
 .hands{
     height: 120vh;
     width: 100%;
-    background-image: url('img/9.jpg');
+    background-image: url('img/16.jpg');
     background-size: cover;
     background-position-y: center;
     background-attachment: fixed;
